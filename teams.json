@@ -1,0 +1,22 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "nom": "test1",
+      "description": "test1",
+      "typeChamp": "ch1"
+    },
+    {
+      "nom": "test2",
+      "description": "any2",
+      "typeChamp": "ch2",
+      "id": 2
+    },
+    {
+      "nom": "test3",
+      "description": "test3",
+      "typeChamp": "ch3",
+      "id": 3
+    }
+  ]
+}

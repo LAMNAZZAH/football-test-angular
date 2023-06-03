@@ -1,0 +1,11 @@
+<ul class="list" *ngFor="let team of listTeams">
+  <li>{{team.id}}</li>
+  <li>{{team.nom}}</li>
+  <li>{{team.description}}</li>
+  <li>{{team.typeChamp}}</li>
+  <li>
+    <button routerLink="/dashboard/preview/{{team.id}}">one</button>
+    <button routerLink="/dashboard/update/{{team.id}}">update</button>
+    <button (click)="actionDelete(team.id)" >delete</button>
+  </li>
+</ul>
